@@ -1,0 +1,38 @@
+.info-1, .info-2, .info-3 {
+    width: 30%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: bottom;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    
+ 
+}
+
+.info-1 {
+    background-image: url('./assets/task2-bg.jpeg');
+  
+} 
+
+.info-2 {
+    background-image: url('./assets/task2-bg1.jpeg');
+}
+    
+.info-3 {
+    background-image: url('./assets/task2-bg2.jpg');
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: lightblue;
+    }
+    .info-1, .info-2, .info-3 {
+        width: calc(100% -40%);
+        margin: 20px;
+        display:block;
+        box-sizing: border-box;
+    }
+}
